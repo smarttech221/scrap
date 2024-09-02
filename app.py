@@ -29,7 +29,7 @@ if st.button('Save and Exit'):
         st.write('Cities and Time saved. Closing application...')
         run_scraping_script()
         # Close Streamlit
-        st.stop()  # This will stop the Streamlit app
+        #st.stop()  # This will stop the Streamlit app
         
         # Run the scraping script
         
